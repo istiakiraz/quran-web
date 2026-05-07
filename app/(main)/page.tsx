@@ -1,13 +1,18 @@
-import { ThemeToggle } from '@/components/ui/common/ThemeToggle'
-import React from 'react'
+import { ThemeToggle } from "@/components/ui/common/ThemeToggle";
+
 
 export default function page() {
   return (
-    <div   >
-
-
+    <div>
       <ThemeToggle />
-      <p className='text-2xl text-red-500 dark:text-white'>
-        main page</p></div>
-  )
+     
+<p className="font-sans">English text</p>
+
+
+<p className="font-amiri" dir="rtl">عربي نص</p>
+
+
+<p className="font-quran"  dir="rtl">قرآن كريم</p>
+    </div>
+  );
 }
